@@ -1,0 +1,124 @@
+body {
+    background-color: #000;
+    font-family: helvetica;
+    font-size: 22px;
+  
+  }
+  
+  h2 {
+    color: seashell;
+    opacity: 0.9;
+  }
+  
+  h3  {
+    color: seashell;
+    opacity: 0.9;
+    margin-left: 70px;
+  }
+  
+  h4  {
+    color: seashell;
+    opacity: 0.9;
+  }
+  
+  h5  {
+    color: seashell;
+    opacity: 0.9;
+  }
+  
+  p {
+    color: seashell;
+    opacity: 0.9;
+  }
+  
+  .brand {
+     
+  }
+  
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+  }
+  
+  header nav .links {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: right;
+    color: seashell;
+    text-decoration: underline;
+  }
+  
+  .banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+  .blackbanner {
+  display: flex;
+  align-items: center;
+  margin-top: -500px;
+  background-color: #000;
+  width: 1200px;
+  justify-content: center;
+  }
+  
+  .title1 {
+    margin-top: 500px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .container div {
+    height: 300px;
+    width: 450px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .locations {
+    height: 600px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .locationchild {
+    background-color: #000;
+    height: 250px;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    text-align: center;
+    opacity: 1;
+  }
+  
+  footer {
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+   }
+   
+  .titlelocations {
+    text-align: center;
+  }
