@@ -31,10 +31,6 @@ body {
     opacity: 0.9;
   }
   
-  .brand {
-     
-  }
-  
   header nav {
     display: flex;
     flex-direction: row;
