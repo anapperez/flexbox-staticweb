@@ -62,7 +62,14 @@ body {
   margin-top: -500px;
   background-color: #000;
   width: 1200px;
-  justify-content: center;
+  justify-items: center;
+  height: 125px;
+  }
+
+  .mission {
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
   }
   
   .title1 {
